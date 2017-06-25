@@ -1,0 +1,4 @@
+﻿<metadata>
+  <attr path="/api/package[@name='com.samgol.driver.bmp180']/class[@name='Bmp180']"
+  name="name">Bmp180Sensor</attr>
+</metadata>
