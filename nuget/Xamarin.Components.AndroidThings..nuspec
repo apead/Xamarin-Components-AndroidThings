@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Xamarin.Components.AndroidThings</id>
+    <title>Xamarin Android Things Driver Library</title>
+    <version>0.10-beta</version>
+    <authors>Allan Pead</authors>
+    <owners>Allan Pead</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Xamarin Android Things Driver Components</summary>
+    <description>
+      Xamarin Android Things Driver Components
+    </description>
+    <copyright>Copyright © Allan Pead</copyright>
+    <projectUrl>https://github.com/apead/Xamarin-Components-AndroidThings</projectUrl>
+    <licenseUrl>https://github.com/apead/Xamarin-Components-AndroidThings/blob/master/LICENSE.md</licenseUrl>
+  </metadata>
+  <files>
+	<file src="output\Xamarin.Components.AndroidThings.Bmp180.dll" target="lib\MonoAndroid70" />
+    </files>
+</package>

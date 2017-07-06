@@ -7,6 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Components.AndroidT
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{F5BF5FCE-C505-4DA2-8551-B13645DD3B8E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BMP180", "BMP180", "{CEB91E17-B84F-4D69-AC41-77FB4D1D54AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Bmp180.EnvironmentSensor", "Samples.Bmp180.EnvironmentSensor\Samples.Bmp180.EnvironmentSensor.csproj", "{CA5B447F-8034-4FCC-B316-96B6533BB4F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Components.AndroidThings.SenseHat", "Xamarin.Components.AndroidThings.SenseHat\Xamarin.Components.AndroidThings.SenseHat.csproj", "{3727FE3C-B453-44D9-931E-7AE0F191349A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SenseHat", "SenseHat", "{BDFD9FB9-77BF-4844-B71D-098E94B89C0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.SensorHat.LedMatrixDisplay", "Samples.SensorHat.LedMatrixDisplay\Sample.SensorHat.LedMatrixDisplay.csproj", "{6F1C36EA-5707-4595-8E2C-99000CA9DC60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,8 +27,30 @@ Global
 		{F192AF9D-CF91-43DA-9228-0B85B9B7D6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F192AF9D-CF91-43DA-9228-0B85B9B7D6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F192AF9D-CF91-43DA-9228-0B85B9B7D6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5B447F-8034-4FCC-B316-96B6533BB4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5B447F-8034-4FCC-B316-96B6533BB4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5B447F-8034-4FCC-B316-96B6533BB4F1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CA5B447F-8034-4FCC-B316-96B6533BB4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5B447F-8034-4FCC-B316-96B6533BB4F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5B447F-8034-4FCC-B316-96B6533BB4F1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3727FE3C-B453-44D9-931E-7AE0F191349A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3727FE3C-B453-44D9-931E-7AE0F191349A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3727FE3C-B453-44D9-931E-7AE0F191349A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3727FE3C-B453-44D9-931E-7AE0F191349A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F1C36EA-5707-4595-8E2C-99000CA9DC60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1C36EA-5707-4595-8E2C-99000CA9DC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1C36EA-5707-4595-8E2C-99000CA9DC60}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6F1C36EA-5707-4595-8E2C-99000CA9DC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1C36EA-5707-4595-8E2C-99000CA9DC60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F1C36EA-5707-4595-8E2C-99000CA9DC60}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEB91E17-B84F-4D69-AC41-77FB4D1D54AF} = {F5BF5FCE-C505-4DA2-8551-B13645DD3B8E}
+		{CA5B447F-8034-4FCC-B316-96B6533BB4F1} = {CEB91E17-B84F-4D69-AC41-77FB4D1D54AF}
+		{BDFD9FB9-77BF-4844-B71D-098E94B89C0B} = {F5BF5FCE-C505-4DA2-8551-B13645DD3B8E}
+		{6F1C36EA-5707-4595-8E2C-99000CA9DC60} = {BDFD9FB9-77BF-4844-B71D-098E94B89C0B}
 	EndGlobalSection
 EndGlobal
